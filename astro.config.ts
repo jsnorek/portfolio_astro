@@ -23,6 +23,7 @@ const whenExternalScripts = (items: (() => AstroIntegration) | (() => AstroInteg
 
 export default defineConfig({
   site: 'https://jsnorek.github.io',
+  base: 'portfolio_astro',
   output: 'static',
 
   integrations: [
